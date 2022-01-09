@@ -1,0 +1,22 @@
+header{
+    max-height: 105px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 50px 26px 50px;
+}
+
+.headerNav{
+    display: flex;
+    list-style-type: none;
+}
+
+.headerNav 
+li 
+a{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30px;
+    text-decoration: none;
+}
