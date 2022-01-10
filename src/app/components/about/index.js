@@ -1,10 +1,15 @@
+import Reviews from "../reviews";
 import "./index.css"
+import Logo from "../../../assets/LogoAbout.svg";
+import Circle from "../../../assets/Circle.svg";
 
 const About = () => {
    
     return (
         <div id="about">
-            <div className="section-back-title">About S3 Innovate</div>
+            <div className="section-back-title-wrapper">
+                <span className="section-back-title">About S3 Innovate</span>
+                </div>
             <div className="section-title">About S3 Innovate</div>
             <div className="section-cite">
                 <span >
@@ -39,6 +44,12 @@ const About = () => {
             </div>
             <span>Talk to us about our technology desires. Explore the solutions to help 
                 transform your asset and business.</span>
+                <div className="logo-about-wrapper">
+                <img src={Circle} id="circle"></img>
+                <img src={Logo} id="logo-about"></img>
+                </div>
+                
+                <Reviews/>
             
         </div>
     );

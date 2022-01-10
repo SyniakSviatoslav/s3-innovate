@@ -1,0 +1,135 @@
+#reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFBFB;
+    margin-top: 158px;
+    max-height: 100vh;
+    min-height: 100%;
+    width: 100%;
+}
+
+.slider-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 672px;
+    width: 1170px;
+    background-color: #5DADE2;
+}
+
+.slide{
+    width: 912px;
+    height: 412px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #438BBB;
+border-radius: 10px;
+box-sizing: content-box !important;
+}
+
+.slide-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    max-width: 410px;
+max-height: 105px;
+}
+
+.coma-1{
+    position: absolute;
+    top: -15px;
+    left: 48%;
+}
+
+.coma-2{
+    position: absolute;
+    top: -15px;
+    left: 52%;
+}
+
+.slide-name{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2874A6;
+    text-transform: uppercase;
+    
+}
+
+.slide-company{
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+.slide-description{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 97px 40px 97px;
+}
+
+.line{
+    background: #2874A6;
+border-radius: 1px;
+height: 2px;
+width: 262px;
+}
+.splide__track{
+    width: 912px !important;
+} 
+
+#splide01-slide01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__arrow{
+    top: 115% !important;
+    width: 50em !important;
+}
+
+.splide__arrow.splide__arrow--prev {
+    background-color: transparent;
+    opacity: none;
+}
+
+.splide__arrow.splide__arrow--next{
+    background-color: transparent;
+    opacity: none;
+}
+
+.splide__arrow svg {
+    fill: white !important;
+}
+
+.splide__pagination {
+    bottom: -4.5em !important;
+}
+
+.splide__pagination__page {
+    background-color: #5DADE2 !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    height: 9px !important;
+    margin: 6px !important;
+    opacity: 1 !important;
+    width: 26px !important;
+}
+
+.splide__pagination__page.is-active {
+    background: #fff !important;
+    transform: none !important;
+}
+
