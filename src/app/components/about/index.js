@@ -2,6 +2,8 @@ import Reviews from "../reviews";
 import "./index.css"
 import Logo from "../../../assets/LogoAbout.svg";
 import Circle from "../../../assets/Circle.svg";
+import Contact from "../contact";
+import Footer from "../footer";
 
 const About = () => {
    
@@ -50,6 +52,7 @@ const About = () => {
                 </div>
                 
                 <Reviews/>
+                <Contact/>
             
         </div>
     );

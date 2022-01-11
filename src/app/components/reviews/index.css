@@ -1,16 +1,15 @@
 #reviews{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #FBFBFB;
     margin-top: 158px;
-    max-height: 100vh;
-    min-height: 100%;
+    min-height: 110vh;
     width: 100%;
 }
 
 .slider-container{
+    margin-top: 182px;
     position: relative;
     display: flex;
     justify-content: center;

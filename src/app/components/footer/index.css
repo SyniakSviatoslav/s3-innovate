@@ -1,0 +1,36 @@
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;   
+    color: white;
+    min-height: 509px;
+    max-width: 1920px;
+    background-image: url(../../../assets/BackGroundFooter.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(27, 79, 114, 0.75);
+}
+
+.contacts{
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    max-width: 662px;
+    font-size: 21px;
+line-height: 40px;
+}
+
+#social{
+    padding-top: 40px;
+}
+
+.rights{
+font-size: 16px;
+line-height: 25px;
+padding-top: 80px;
+}

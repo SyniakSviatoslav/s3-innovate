@@ -105,26 +105,6 @@ const Reviews = () => {
                     </SplideSlide>
                 </Splide>
 
-
-                {/* <div className="slider-container">
-                <Splide
-                    options={{
-                        rewind: true,
-                        gap: '1rem',
-                        width: 920,
-                    }}
-                >
-                    <SplideSlide>
-                        <div className="slide"></div>
-                    </SplideSlide>
-                    <SplideSlide>
-                    <div className="slide"></div>
-                    </SplideSlide>
-                    <SplideSlide>
-                    <div className="slide"></div>
-                    </SplideSlide>
-                </Splide>
-            </div> */}
             </div>
         </div>
     );
