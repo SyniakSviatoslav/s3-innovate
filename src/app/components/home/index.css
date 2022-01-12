@@ -20,5 +20,6 @@
 }
 
 #homeText{
-    padding-top: 65px;
+    max-width: 100%;
+    padding: 65px 30px ;
 }

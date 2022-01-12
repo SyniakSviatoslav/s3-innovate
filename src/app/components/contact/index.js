@@ -16,56 +16,56 @@ const Contact = () => {
             <div className="section-title">Contact Us</div>
 
             <div className="form-container">
-            <form >
+                <form >
 
-                <div className="form_wrapper">
-                    <div className="input-wrapper">
-                        <img src={name}></img>
-                        <input
-                            placeholder="Name"
-                            className="input"
-                        ></input>
+                    <div className="form_wrapper">
+                        <div className="input-wrapper">
+                            <img src={name}></img>
+                            <input
+                                placeholder="Name"
+                                className="input"
+                            ></input>
+                        </div>
+                        <div className="input-wrapper">
+                            <img src={email}></img>
+                            <input
+                                placeholder="Email"
+                                className="input"
+                                type="email"
+                            ></input>
+                        </div>
+                        <div className="input-wrapper">
+                            <img src={phone}></img>
+                            <input
+                                placeholder="Phone"
+                                className="input"
+                            ></input>
+                        </div>
+                        <div className="input-wrapper">
+                            <img src={home}></img>
+                            <input
+                                placeholder="Company"
+                                className="input"
+                            ></input>
+                        </div>
+                        <div className="input-wrapper-message">
+                            <img src={message}></img>
+                            <input
+                                placeholder="Message"
+                                className="input"
+                            ></input>
+                        </div>
                     </div>
-                    <div className="input-wrapper">
-                        <img src={email}></img>
-                        <input
-                            placeholder="Email"
-                            className="input"
-                            type="email"
-                        ></input>
-                    </div>
-                    <div className="input-wrapper">
-                        <img src={phone}></img>
-                        <input
-                            placeholder="Phone"
-                            className="input"
-                        ></input>
-                    </div>
-                    <div className="input-wrapper">
-                        <img src={home}></img>
-                        <input
-                            placeholder="Company"
-                            className="input"
-                        ></input>
-                    </div>
-                    <div className="input-wrapper-message">
-                        <img src={message}></img>
-                        <input
-                            placeholder="Message"
-                            className="input"
-                        ></input>
-                    </div>
-                </div>
 
-                <button type="submit" className="sendButton" >
-                    Send
-                </button>
+                    <button type="submit" className="sendButton" >
+                        Send
+                    </button>
 
-            </form>
+                </form>
             </div>
-            <Footer/>
+            <Footer />
         </div>
-        
+
     );
 }
 

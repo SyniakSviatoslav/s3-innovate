@@ -3,16 +3,15 @@ import "./index.css"
 import Logo from "../../../assets/LogoAbout.svg";
 import Circle from "../../../assets/Circle.svg";
 import Contact from "../contact";
-import Footer from "../footer";
 
 const About = () => {
-   
+
     return (
         <div id="about">
             <div className="section-back-title-wrapper">
-                <span className="section-back-title">About S3 Innovate</span>
-                </div>
-            <div className="section-title">About S3 Innovate</div>
+                <div className="section-back-title">About S3 Innovate</div>
+                <div className="section-title">About S3 Innovate</div>
+            </div>
             <div className="section-cite">
                 <span >
                     <strong>We are committed to create a <span className="key-words">Smart, Secure and Sustainable (S3) world</span></strong></span>
@@ -26,12 +25,12 @@ const About = () => {
             <div className="about-cards">
                 <div className="about-card">
                     <span className="about-card-title" > 6 </span>
-                    <p>Headquarted in Singapore, we have a regional footprint in Manila, 
-                    Dhaka, Jakarta, Yangon and Ho Chi Minh</p>
+                    <p>Headquarted in Singapore, we have a regional footprint in Manila,
+                        Dhaka, Jakarta, Yangon and Ho Chi Minh</p>
                 </div>
                 <div className="about-card">
                     <span className="about-card-title" > 7 </span>
-                    <p>We manage a portfolio of assets with clientiale in commerical, retail, manufacturing, 
+                    <p>We manage a portfolio of assets with clientiale in commerical, retail, manufacturing,
                         energy, data centres,  government agencies, and cities (smart cities, estates, parks)</p>
                 </div>
                 <div className="about-card">
@@ -41,19 +40,19 @@ const About = () => {
                 <div className="about-card">
                     <span className="about-card-title" > 10m+ </span>
                     <p>IoT data points are collected across all systems and sensors
-                         and are designed for performance and scalability in Mircosoft Azure</p>
+                        and are designed for performance and scalability in Mircosoft Azure</p>
                 </div>
             </div>
-            <span>Talk to us about our technology desires. Explore the solutions to help 
-                transform your asset and business.</span>
-                <div className="logo-about-wrapper">
+            <div className="end-cite"><span>Talk to us about our technology desires. Explore the solutions to help
+                transform your asset and business.</span></div>
+            <div className="logo-about-wrapper">
                 <img src={Circle} id="circle"></img>
                 <img src={Logo} id="logo-about"></img>
-                </div>
-                
-                <Reviews/>
-                <Contact/>
-            
+            </div>
+
+            <Reviews />
+            <Contact />
+
         </div>
     );
 }
